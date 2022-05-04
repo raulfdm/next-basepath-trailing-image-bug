@@ -148,7 +148,7 @@ const IndexPage = () => {
 };
 
 function getPublicPath(path: string) {
-  return `/docs/${path}`;
+  return `/docs${path}`;
   // return path;
 }
 
