@@ -1,4 +1,8 @@
 module.exports = {
   trailingSlash: true,
-  basePath: '/docs',
+  basePath: "/docs",
+  images: {
+    domains: ["localhost"],
+    formats: ["image/avif", "image/webp"],
+  },
 };
