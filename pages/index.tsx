@@ -148,7 +148,7 @@ const IndexPage = () => {
 };
 
 function getPublicPath(path: string) {
-  return `${process.env.NEXT_PUBLIC_BASE_PATH}${path}`;
+  return `/docs/${path}`;
   // return path;
 }
 
